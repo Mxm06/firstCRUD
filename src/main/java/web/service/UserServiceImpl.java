@@ -21,7 +21,6 @@ import java.util.List;
         public void save(User user) {
             userDao.save(user);
         }
-
         @Override
         @Transactional
         public void delete(User user) {
@@ -33,7 +32,6 @@ import java.util.List;
         public void update(User user) {
             userDao.update(user);
         }
-
         @Override
         @Transactional
         public List<User> listAllUsers() {
